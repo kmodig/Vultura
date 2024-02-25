@@ -1,0 +1,135 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.grid{
+	display: grid;
+	grid-template-areas:
+	"left content right"
+	"left Bcontent right";
+
+	grid-template-columns: 1fr 1000px 1fr;
+	grid-template-rows: auto auto;
+}
+
+.center { grid-area: content;}
+
+.left {grid-area: left;}
+
+.right {grid-area: right;}
+
+.Bcenter { grid-area: Bcontent;}
+
+
+#första {					/*Första bilden på "Om-sidan"*/                
+	max-width: 490px;
+	height: auto;
+	float: left;
+	margin: 10px;
+}
+
+#andra {					/*Andra bilden på "Om-sidan"*/                
+	max-width: 490px;
+	height: auto;
+	float: right;
+	margin: 10px;
+}
+
+Img {
+	max-width: 990px;      /*Gäller affischen till startsidan*/
+	height: auto;
+	margin: 10px;
+}
+
+
+
+p {
+	/*display: block;*/
+	margin: 10px;
+}
+
+h1 a{
+	color: 	#FF0000;
+	text-decoration: none;
+	font-family: "battery-park", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 5em;
+	display: inline-block;
+}
+
+h1 a:hover{
+	background-color: #291f1f;
+}
+
+.container {
+	display: flex;
+	max-width: 1000px;
+	height: auto;
+	margin: 0 auto;
+	background-color: black;
+
+}
+
+
+
+h1 {
+    margin: 0; /* Remove default margin */
+    
+}
+
+body {
+    text-align: center; /* Center content horizontally */
+	background-color: black;
+	margin: 0;
+}
+
+.meny ul{
+	list-style-type: none;
+	background-color: red;
+	padding: 0px;
+	margin: 0px;
+	/*overflow: hidden;*/
+	text-align: center;
+}
+
+.meny a{
+	color: white;
+	text-decoration: none;
+	padding: 15px;
+	display: block;
+	text-align: center;
+	font-family: "octin-college", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 2.28em
+	
+}
+
+
+.meny a:hover{
+	background-color: #800000;
+}
+
+.meny li{
+	/*float: left*/
+	display: inline-block;
+}
+
+h3 {
+	color: white;
+	font-family: "octin-college", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+main {
+	color: white;
+	/*font-family: "ltr-beowolf-r21", serif;   /*Alternativt typsnitt för brödtext*/
+	/*font-weight: 400;
+	font-style: normal;*/
+	
+	font-family: "dico-typewriter", mono;
+	font-weight: 400;
+	font-style: normal;
+}
+
