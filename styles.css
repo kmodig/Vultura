@@ -11,6 +11,13 @@
 	grid-template-rows: auto auto;
 }
 
+body {
+  background-image: url(images/1.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 /*"Om filmen"-sidan*/
 
 .center { grid-area: content;}
