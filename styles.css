@@ -18,6 +18,10 @@ body {
   background-size: cover;
 }
 
+h1{
+	text-align: center;
+}
+
 /*"Om filmen"-sidan*/
 
 .center { grid-area: content;}
