@@ -155,6 +155,17 @@ main {
 	font-style: normal;
 }
 
+/* Galleri Slide */
+.item{
+	scroll-snap-align: center;
+}
 
-
+.item-list{
+	max-width: 990px;
+	width: 70vw;
+	display: flex;
+	scroll-behavior: smooth;
+	overflow: auto;
+	scroll-snap-type: x mandatory;
+}
 

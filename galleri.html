@@ -6,10 +6,12 @@
 <link rel="stylesheet" type="text/css" href="styles.css">
 <link rel="stylesheet" href="https://use.typekit.net/awx8imq.css">
 <link rel="stylesheet" href="https://use.typekit.net/awx8imq.css">
+<link rel="icon" href="images/face1.png" type="image/x-icon">
 <title>galleri.html</title> <!--HELLO WORLD korv--> 
 </head>
 
 <body>
+	<header>
 	<h1><a href="index.html">Vultura</a></h1>
 	
 	<nav class="meny">
@@ -19,6 +21,26 @@
 			<li><a href="galleri.html">Galleri</a></li>
 		</ul>
 	</nav>
-	
+	</header>
+	<main>
+		<div class="container">
+			<div class="carousel-view">
+				<!--Left-->
+				<button id="prev-btn" class="prev-btn"></button>
+				<!--List Container-->
+					<div id="item-list" class="item-list">
+						<!--Items-->
+						<img id="item" class="item" src="images/1.png" alt="Image 1">
+						<img id="item" class="item" src="images/2.png" alt="Image 2">
+						<img id="item" class="item" src="images/3.png" alt="Image 3">
+					</div>
+				<!--Right-->
+				<button id="next-btn" class="next-btn"></button>
+			</div>
+		</div>
+	</main>
+	<footer>
+		
+	</footer>
 </body>
 </html>
