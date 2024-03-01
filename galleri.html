@@ -6,11 +6,14 @@
 <link rel="stylesheet" type="text/css" href="styles.css">
 <link rel="stylesheet" href="https://use.typekit.net/awx8imq.css">
 <link rel="stylesheet" href="https://use.typekit.net/awx8imq.css">
-<script type="text/javascript" src="js/script.js"></script>
+<script src="js/script.js"></script>
+<link rel=”icon” href="images/face1.png" type=”image/x-icon”> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <title>galleri.html</title> <!--HELLO WORLD korv--> 
 </head>
 
 <body>
+	<header>
 	<h1><a href="index.html">Vultura</a></h1>
 	
 	<nav class="meny">
@@ -20,47 +23,44 @@
 			<li><a href="galleri.html">Galleri</a></li>
 		</ul>
 	</nav>
+	</header>
+	<main>
 	<!-- Container for the image gallery -->
 <div class="containerSlides">
 
 	<!-- Full-width images with number text -->
 	<div class="mySlides">
-		<img src="images/1.png" style="width:100%">
+		<img src="images/1.png" alt="image 1" style="width:100%">
 	</div>
   
 	<div class="mySlides">
-		<img src="images/2.png" style="width:100%">
+		<img src="images/2.png" alt="image 1" style="width:100%">
 	</div>
   
 	<div class="mySlides">
-		<img src="images/3.png" style="width:100%">
+		<img src="images/3.png" alt="image 1" style="width:100%">
 	</div>
   
 	<div class="mySlides">
-		<img src="images/1.png" style="width:100%">
+		<img src="images/1.png" alt="image 1" style="width:100%">
 	</div>
   
 	<div class="mySlides">
-		<img src="images/2.png" styl="width:100%">
+		<img src="images/2.png" alt="image 1" style="width:100%">
 	</div>
   
 	<div class="mySlides">
-		<img src="images/3.png" style="width:100%">
+		<img src="images/3.png" alt="image 1" style="width:100%">
 	</div>
   
 	<!-- Next and previous buttons -->
 	<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 	<a class="next" onclick="plusSlides(1)">&#10095;</a>
   
-	<!-- Image text -->
-	<div class="caption-container">
-	  <p id="caption"></p>
-	</div>
-  
 	<!-- Thumbnail images -->
 	<div class="row">
 	  <div class="column">
-		<img class="demo cursor" src="images/1.png" style="width:100%" onclick="currentSlide(1)" alt="image1">
+		<img class="demo cursor" src="images/1.png" style="width:100%" onclick="currentSlide(1)" alt="image 1">
 	  </div>
 	  <div class="column">
 		<img class="demo cursor" src="images/2.png" style="width:100%" onclick="currentSlide(2)" alt="image 2">
@@ -79,6 +79,48 @@
 	  </div>
 	</div>
   </div>
-	
+</main>
+<footer>
+	<style>
+		.fa {
+		  padding: 20px;
+		  font-size: 30px;
+		  width: 60px;
+		  text-align: center;
+		  text-decoration: none;
+		  margin: 4px 2px;
+		  border-radius: 50%;
+		}
+		
+		.fa:hover {
+			opacity: 0.7;
+		}
+		
+		.fa-facebook {
+		  background: #000000;
+		  color: #ff0000;
+		}
+		
+		.fa-twitter {
+			background: #000000;
+		  color: #ff0000;
+		}
+		
+		
+		.fa-instagram {
+			background: #000000;
+		  color: #ff0000;
+		}
+		
+		</style>
+		
+
+		<!-- Add font awesome icons -->
+		<div >
+		<a href="#" class="fa fa-facebook"></a>
+		<a href="#" class="fa fa-twitter"></a>
+		<a href="#" class="fa fa-instagram"></a>
+		</div>  
+</footer>
 </body>
 </html>
