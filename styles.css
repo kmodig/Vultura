@@ -16,6 +16,10 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  
+  text-align: center; /* Center content horizontally */
+  background-color: black;
+  margin: 0;
 }
 
 /*"Om filmen"-sidan*/
@@ -97,12 +101,6 @@ h1 a:hover{
 h1 {
     margin: 0; /* Remove default margin */
     
-}
-
-body {
-    text-align: center; /* Center content horizontally */
-	background-color: black;
-	margin: 0;
 }
 
 .meny ul{
