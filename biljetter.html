@@ -131,6 +131,71 @@
 				</table>
 			</div>
 		</div>
+		<article> 
+
+			<h2>Reservera</h2> 
+			
+			<p>För att reservera platser för dig och din grupp fyll i ett namn, antal önskade platser och visningstillfälle i fälten nedan.</p> 
+			<p>Tänk på att inte lämna någon kännslig personlig information.</p>
+			<p>Reserverade platser måste hämtas ut minst 15 minuter innan visningen börjar.</p>
+			<br>
+			
+			<form action="https://httpbin.org/get" method="get"> 
+			
+			<label for="firstName">Name:</label> 
+			
+			<input type="text" name="firstName" id="firstName" required> 
+			<br>
+
+			<label for="platser">Antal Platser:</label> 
+			
+			<input type="number" name="platser" id="platser" min="1" max="5" step="1" value="1"> 
+			<br>
+			
+			<label for="tillfälle">Visningstillfälle:</label> 
+
+			<select name="tillfälle" id="tillfälle"> 
+			
+			<optgroup label="Visningstillfälle"> 
+			
+			<option value="Visning1" selected>"Fredag 21 Juni 19:15-21:15"</option> 
+			
+			<option value="Visning2">Lördag 22 Juni 20:30-22:30</option> 
+			
+			<option value="Visning3">Söndag 23 Juni 19:15-21:15</option> 
+			
+			<option value="Visning4">Fredag 28 Juni 19:15-21:15</option> 
+			
+			<option value="Visning5">Lördag 29 Juni 20:30-22:30</option> 
+			
+			<option value="Visning6">Söndag 30 Juni 19:15-21:15</option> 
+			
+			<option value="Visning7">Onsdag 3 Juli 13:15-15:15</option>
+			
+			<option value="Visning8">Fredag 5 Juli 19:15-21:15</option> 
+			
+			<option value="Visning9">Lördag 6 Juli 20:30-22:30</option> 
+			
+			<option value="Visning10">Söndag 7 Juli 19:15-21:15</option> 
+			
+			<option value="Visning11">Fredag 12 Juli 19:15-21:15</option> 
+			
+			<option value="Visning12">Lördag 13 Juli 20:30-22:30</option> 
+			
+			<option value="Visning13">Söndag 14 Juli 19:15-21:15</option> 
+			</optgroup> 
+			
+			</select> 
+			<br>
+
+			<button type="submit">Submit</button> 
+
+			<button type="reset">Reset</button> 
+
+			</form> 
+			
+		</article> 
+
 
 
 
