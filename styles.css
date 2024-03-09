@@ -17,8 +17,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  
-  text-align: center; /* Center content horizontally */
+  text-align: center; /* Center content left */
   margin: 0;
 }
 
@@ -39,7 +38,7 @@ body {
 	grid-area: content;
 
 	font-size: 15pt;
-
+	
 	margin-left: auto;
 	margin-right: auto;
 
@@ -71,6 +70,7 @@ Img {
 p {
 	/*display: block;*/
 	margin: 10px;
+	text-align: left;
 }
 
 h1 a{
@@ -140,6 +140,7 @@ h3 {
 	font-family: "octin-college", sans-serif;
 	font-weight: 400;
 	font-style: normal;
+	text-align: center;
 }
 
 main {
@@ -201,6 +202,9 @@ main {
 	background-color: rgba(0, 0, 0, 0.8);
   }
   
+  table {
+	border-style: outset ;
+  }
   
   
   .row:after {
@@ -224,6 +228,38 @@ main {
   .demo:hover {
 	opacity: 1;
   }
+  
 
+
+		.fa {
+		  padding: 20px;
+		  font-size: 30px;
+		  width: 60px;
+		  text-align: center;
+		  text-decoration: none;
+		  margin: 4px 2px;
+		  border-radius: 50%;
+		}
+		
+		.fa:hover {
+			opacity: 0.7;
+		}
+		
+		.fa-facebook {
+		  background: #000000;
+		  color: #ff0000;
+		}
+		
+		.fa-twitter {
+			background: #000000;
+		  color: #ff0000;
+		}
+		
+		
+		.fa-instagram {
+			background: #000000;
+		  color: #ff0000;
+		}
+		
 
 
