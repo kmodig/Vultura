@@ -13,7 +13,7 @@
 
 body {
 	
-  background-image: url("images/1dark.png");
+  background-image: url("/images/1dark.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -246,19 +246,19 @@ main {
 		}
 		
 		.fa-facebook {
-		  background: #000000;
-		  color: #ff0000;
+			background: #000000;
+			color: #ff0000;
 		}
 		
 		.fa-twitter {
 			background: #000000;
-		  color: #ff0000;
+			color: #ff0000;
 		}
 		
 		
 		.fa-instagram {
 			background: #000000;
-		  color: #ff0000;
+			color: #ff0000;
 		}
 		
 
