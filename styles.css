@@ -60,7 +60,7 @@ body {
 }
 
 Img {
-	max-width: 990px;      /*Gäller affischen till startsidan*/
+	max-width: 600px;      /*Gäller affischen till startsidan, var 990 px originellt, kommer troligen ändras baserat på storleken på affischen*/
 	height: auto;
 	margin: 10px;
 }
@@ -212,11 +212,22 @@ main {
 	display: table;
 	clear: both;
   }
+
+  .row {
+	grid-area: Bcontent;
+  }
+
+  .column {
+	grid-area: Bcontent;
+  }
+  
   
   /* Six columns side by side */
   .column {
-	float: left;
-	width: 16.66%;
+	float: left; 
+	justify-content: center;
+	align-items: center;
+	width: 16.66%;   /*16.66%*/
   }
   
   /* Add a transparency effect for thumnbail images */
