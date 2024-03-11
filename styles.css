@@ -13,7 +13,7 @@
 
 body {
 	
-  background-image: url(/Vultura/images/1dark.PNG); /* didn't work with 1dark.png (actual image also had lowercase .png), works when changed to uppercase for some reason */
+  background-image: url(../Vultura/images/1dark.png); /* didn't work with 1dark.png (actual image also had lowercase .png), works when changed to uppercase for some reason */
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
